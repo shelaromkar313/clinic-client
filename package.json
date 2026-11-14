@@ -1,9 +1,5 @@
 {
   "name": "dr-rui-skin-clinic",
   "version": "1.0.0",
-  "private": true,
-  "description": "Dr. Rui's Skin, Hair & Laser Clinic website",
-  "scripts": {
-    "build": "echo 'Static site ready'"
-  }
+  "private": true
 }

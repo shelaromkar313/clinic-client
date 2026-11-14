@@ -1,0 +1,568 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog & Skin Tips | Dr. Rui's Skin, Hair & Laser Clinic Thergaon</title>
+  <meta name="description" content="Expert skincare and hair health guides by Dr. Rohini Murade Patil. Discover evidence-based articles on controlling hair fall, acne routines for Indian skin, and melasma treatments.">
+  <meta name="keywords" content="hair fall tips Pune, acne routine Indian skin, melasma treatment Pune, PRP hair loss advice, skincare blog Thergaon">
+  <link rel="canonical" href="https://drruiskinclinic.com/blog.html">
+
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="64x64" href="assets/images/favicon.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .blog-layout {
+      display: grid;
+      grid-template-columns: 2fr 1fr;
+      gap: 40px;
+    }
+    .blog-card {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border-light);
+      border-radius: var(--radius-xl);
+      overflow: hidden;
+      box-shadow: var(--shadow-sm);
+      margin-bottom: 36px;
+      transition: all var(--transition-normal);
+    }
+    .blog-card:hover {
+      box-shadow: var(--shadow-hover);
+      border-color: var(--color-secondary);
+      transform: translateY(-4px);
+    }
+    .blog-thumb-wrap {
+      width: 100%;
+      height: 280px;
+      overflow: hidden;
+      background: var(--color-bg-cream);
+    }
+    .blog-thumb {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform var(--transition-slow);
+    }
+    .blog-card:hover .blog-thumb {
+      transform: scale(1.05);
+    }
+    .blog-body {
+      padding: 32px;
+    }
+    .blog-meta-row {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      font-size: 0.85rem;
+      color: var(--color-text-secondary);
+      margin-bottom: 12px;
+    }
+    .blog-tag {
+      background: var(--color-secondary);
+      color: var(--color-primary);
+      padding: 4px 12px;
+      border-radius: var(--radius-full);
+      font-weight: 700;
+      font-size: 0.775rem;
+      text-transform: uppercase;
+    }
+    .blog-card-title {
+      font-size: 1.6rem;
+      margin-bottom: 14px;
+      color: var(--color-primary);
+      line-height: 1.3;
+    }
+    .blog-snippet {
+      font-size: 0.975rem;
+      color: var(--color-text-secondary);
+      line-height: 1.7;
+      margin-bottom: 20px;
+    }
+    .sidebar-widget {
+      background: #FFFFFF;
+      border: 1px solid var(--color-border);
+      border-radius: var(--radius-lg);
+      padding: 28px;
+      margin-bottom: 28px;
+      box-shadow: var(--shadow-sm);
+    }
+    .sidebar-widget h4 {
+      font-size: 1.2rem;
+      margin-bottom: 16px;
+      position: relative;
+      padding-bottom: 8px;
+    }
+    .sidebar-widget h4::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      width: 30px;
+      height: 2px;
+      background: var(--color-primary);
+    }
+    .tip-list {
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+    }
+    .tip-item {
+      display: flex;
+      gap: 10px;
+      font-size: 0.9rem;
+      color: var(--color-text-dark);
+      line-height: 1.5;
+    }
+    @media (max-width: 900px) {
+      .blog-layout {
+        grid-template-columns: 1fr;
+      }
+      .blog-thumb-wrap {
+        height: 220px;
+      }
+      .blog-body {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Top Bar -->
+  <div class="top-bar">
+    <div class="container top-bar-inner">
+      <div class="top-bar-left">
+        <span class="top-bar-item">Shop A-112, Khinvasara Trade Centre, Dange Chowk Road, Thergaon, Pune</span>
+        <span class="top-bar-item">Mon - Sat: 10:00 AM - 8:00 PM</span>
+      </div>
+      <div class="top-bar-right">
+        <span class="top-badge">★ 4.7 Google Rated (250+ Reviews)</span>
+        <a href="tel:+919834080515" class="top-bar-item">+91 98340 80515</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="site-header">
+    <div class="header-container">
+      <a href="index.html" class="brand-logo">
+        <img src="assets/images/logo.png" alt="Dr. Rui's Logo" class="logo-img">
+        <div class="brand-text-wrap">
+          <span class="brand-title">Dr. Rui's</span>
+          <span class="brand-sub">Skin, Hair & Laser Clinic</span>
+          <span class="brand-doctor">Dr. Rohini Murade Patil</span>
+        </div>
+      </a>
+
+      <nav class="main-nav">
+        <ul class="nav-links">
+          <li><a href="index.html" class="nav-link">Home</a></li>
+          <li><a href="about.html" class="nav-link">About</a></li>
+          <li><a href="services.html" class="nav-link">Services</a></li>
+          <li><a href="gallery.html" class="nav-link">Gallery</a></li>
+          <li><a href="reviews.html" class="nav-link">Reviews</a></li>
+          <li><a href="blog.html" class="nav-link active">Blog & Skin Tips</a></li>
+          <li><a href="contact.html" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="header-actions">
+        <a href="tel:+919834080515" class="btn-call-header">Call Now</a>
+        <button class="btn btn-primary btn-sm js-open-booking" data-service="Consultation">
+          <span class="btn-text-full">Book Appointment</span>
+          <span class="btn-text-mobile">Book</span>
+        </button>
+        <button class="mobile-nav-toggle" aria-label="Open menu">
+          <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><line x1="4" y1="6" x2="20" y2="6"/><line x1="4" y1="12" x2="20" y2="12"/><line x1="4" y1="18" x2="20" y2="18"/></svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile Drawer -->
+  <div class="drawer-overlay"></div>
+  <aside class="mobile-drawer">
+    <div class="drawer-header">
+      <div class="brand-logo">
+        <img src="assets/images/logo.png" alt="Logo" class="logo-img" style="width: 42px; height: 42px;">
+        <span class="brand-title">Dr. Rui's Clinic</span>
+      </div>
+      <button class="drawer-close">&times;</button>
+    </div>
+    <nav class="drawer-links">
+      <a href="index.html" class="drawer-link">Home <span>→</span></a>
+      <a href="about.html" class="drawer-link">About Doctor & Clinic <span>→</span></a>
+      <a href="services.html" class="drawer-link">Treatments & Services <span>→</span></a>
+      <a href="gallery.html" class="drawer-link">Clinic & Treatment Gallery <span>→</span></a>
+      <a href="reviews.html" class="drawer-link">Patient Reviews (4.7★) <span>→</span></a>
+      <a href="blog.html" class="drawer-link active">Blog & Skin Tips <span>→</span></a>
+      <a href="contact.html" class="drawer-link">Contact & Location <span>→</span></a>
+    </nav>
+    <div class="drawer-contact">
+      <button class="btn btn-primary js-open-booking" style="width: 100%;">Book Appointment</button>
+      <a href="tel:+919834080515" class="btn btn-secondary" style="width: 100%;">Call: +91 98340 80515</a>
+    </div>
+  </aside>
+
+  <!-- Page Hero -->
+  <section class="page-hero">
+    <div class="container">
+      <div class="page-hero-content">
+        <span class="section-tag">Dermatology Insights & Education</span>
+        <h1 class="page-hero-title">Skin & Hair Health Guides</h1>
+        <p class="page-hero-sub">Medical facts, dermatologist advice, and homecare routines to keep your skin healthy and glowing.</p>
+        <div class="breadcrumb-nav">
+          <a href="index.html">Home</a> <span>/</span> <span>Blog</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Blog Main Content -->
+  <section style="padding: 70px 0; background-color: var(--color-bg-cream);">
+    <div class="container">
+      <div class="blog-layout">
+
+        <!-- Articles Column -->
+        <main>
+
+          <!-- Article 1: Hair Fall -->
+          <article class="blog-card" id="article-hair-fall">
+            <div class="blog-thumb-wrap">
+              <img src="assets/images/blog/blog-hair-fall.jpg" alt="How to Control Hair Fall" class="blog-thumb">
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta-row">
+                <span class="blog-tag">Trichology Guide</span>
+                <span>By Dr. Rohini Murade Patil</span>
+                <span>• 6 min read</span>
+              </div>
+              <h2 class="blog-card-title">How to Effectively Control Hair Fall: Causes, Nutrition & Clinical PRP/GFC Solutions</h2>
+              <p class="blog-snippet">
+                Losing 50 to 100 strands a day is natural, but when hair clogs the shower drain or thinning visibly widens your parting line, quick cosmetic shampoos won't fix it. Understand the difference between temporary Telogen Effluvium and genetic pattern hair loss, the vital role of ferritin and Vitamin D3, and how autologous PRP/GFC therapies reactivate dormant hair follicles.
+              </p>
+
+              <button class="btn btn-primary btn-sm js-read-article">
+                Read Full Clinical Article <span>→</span>
+              </button>
+
+              <!-- Hidden Full Article Content for Reader Modal -->
+              <div class="blog-full-content" style="display: none;">
+                <p>Hair fall is one of the most common complaints we treat at Dr. Rui's Clinic. In urban environments like Pune, high stress, hard water, pollution, and nutritional gaps frequently trigger excessive hair shedding.</p>
+                
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">1. Understanding the Root Causes</h3>
+                <p>Hair loss broadly falls into two clinical categories:</p>
+                <ul style="list-style: disc; padding-left: 20px; margin-bottom: 16px;">
+                  <li><strong>Telogen Effluvium:</strong> Diffuse sudden shedding typically occurring 2 to 3 months after physical illness, intense emotional stress, rapid weight loss, or childbirth.</li>
+                  <li><strong>Androgenetic Alopecia (Pattern Thinning):</strong> Progressive follicle miniaturization driven by genetic sensitivity to dihydrotestosterone (DHT), resulting in hairline recession in men or a widened crown parting in women.</li>
+                </ul>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">2. Nutritional & Laboratory Screenings</h3>
+                <p>Before buying expensive hair serums, we check your internal biomarkers. Over 70% of hair fall patients in India have low Serum Ferritin (iron reserves), Vitamin D3 insufficiency, or subclinical thyroid imbalances. Correcting these deficiencies provides the biological foundation your hair roots need to grow.</p>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">3. Clinical Regeneration: PRP & GFC Therapy</h3>
+                <p>When topical treatments alone prove slow, Platelet-Rich Plasma (PRP) and Growth Factor Concentrate (GFC) provide a breakthrough. By isolating autologous growth factors from your own blood and delivering them directly to follicle stem cells, we stimulate microvascular circulation, prolong the Anagen (growth) phase, and reverse miniaturization without synthetic drugs.</p>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">4. Daily Hair Care Rules to Follow</h3>
+                <ul style="list-style: disc; padding-left: 20px;">
+                  <li>Wash your scalp 2-3 times weekly with a gentle, sulfate-free pH-balanced cleanser to prevent sebum buildup and dandruff.</li>
+                  <li>Never vigorously towel-dry wet hair or comb damp strands with a fine-toothed comb.</li>
+                  <li>Avoid continuous high-heat blow drying directly against your scalp roots.</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 2: Acne Routine -->
+          <article class="blog-card" id="article-acne-routine">
+            <div class="blog-thumb-wrap">
+              <img src="assets/images/blog/blog-acne-routine.jpg" alt="Acne Care Routine for Indian Skin" class="blog-thumb">
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta-row">
+                <span class="blog-tag">Acne Mastery</span>
+                <span>By Dr. Rohini Murade Patil</span>
+                <span>• 5 min read</span>
+              </div>
+              <h2 class="blog-card-title">The Complete Dermatologist-Approved Acne Care Routine for Indian Skin</h2>
+              <p class="blog-snippet">
+                Indian skin has active sebaceous glands and is particularly prone to Post-Inflammatory Hyperpigmentation (PIH)—meaning even a small pimple can leave a dark mark for months. Learn why aggressive scrubs and homemade lemon concoctions ruin your skin barrier, and discover the essential 3-step clinical routine that clears active breakouts safely.
+              </p>
+
+              <button class="btn btn-primary btn-sm js-read-article">
+                Read Full Clinical Article <span>→</span>
+              </button>
+
+              <!-- Hidden Full Article Content for Reader Modal -->
+              <div class="blog-full-content" style="display: none;">
+                <p>Acne is not merely a cosmetic inconvenience; it is a chronic inflammatory disorder of the pilosebaceous unit. Because melanin-rich Indian skin reacts intensely to inflammation, treating acne promptly is critical to prevent deep scarring and hyperpigmentation.</p>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">1. Ditch Harmful DIY Remedies</h3>
+                <p>Common household remedies like lemon juice, raw baking soda, or toothpaste disrupt the skin's acidic mantle (pH 4.5–5.5), causing chemical micro-burns and triggering severe post-inflammatory dark marks. Always choose medical-grade, pH-balanced topicals.</p>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">2. The Dermatologist-Approved 3-Step Routine</h3>
+                <ul style="list-style: disc; padding-left: 20px; margin-bottom: 16px;">
+                  <li><strong>Step 1 (Cleanse):</strong> Use a gentle salicylic acid (1-2%) or glycolic cleanser morning and evening to dissolve trapped sebum and dead keratin cells inside pores.</li>
+                  <li><strong>Step 2 (Treat & Hydrate):</strong> Many acne patients mistakenly avoid moisturizers. Dehydrated skin compensates by producing more oil! Apply an oil-free, non-comedogenic gel containing hyaluronic acid or niacinamide (4-5%) to soothe redness and restore the lipid barrier.</li>
+                  <li><strong>Step 3 (Sun Protection):</strong> UV radiation oxidizes sebum and darkens post-acne blemishes into stubborn black marks. Wear a broad-spectrum, non-greasy matte sunscreen (SPF 50 PA++++) daily.</li>
+                </ul>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">3. When to See a Dermatologist for Clinical Peels</h3>
+                <p>If cystic pimples or painful nodules persist for over 2 weeks, consult a specialist. At Dr. Rui's Clinic, procedures like our medical <strong>Black Acetic Acid Peel</strong> and targeted extraction calm inflammation within days, stopping scarring before it begins.</p>
+              </div>
+            </div>
+          </article>
+
+          <!-- Article 3: Melasma & Pigmentation -->
+          <article class="blog-card" id="article-melasma">
+            <div class="blog-thumb-wrap">
+              <img src="assets/images/blog/blog-melasma.jpg" alt="Melasma Causes and Laser Treatment" class="blog-thumb">
+            </div>
+            <div class="blog-body">
+              <div class="blog-meta-row">
+                <span class="blog-tag">Pigmentation</span>
+                <span>By Dr. Rohini Murade Patil</span>
+                <span>• 5 min read</span>
+              </div>
+              <h2 class="blog-card-title">Melasma & Stubborn Pigmentation: Root Causes, Laser Treatments & Daily Sun Protection</h2>
+              <p class="blog-snippet">
+                Melasma often shows up as brownish-grey symmetrical patches across the cheekbones, bridge of the nose, and forehead. Driven by estrogen fluctuations, sun exposure, and screen blue light, understanding its biology is the key to fading dark patches permanently without rebound hyperpigmentation.
+              </p>
+
+              <button class="btn btn-primary btn-sm js-read-article">
+                Read Full Clinical Article <span>→</span>
+              </button>
+
+              <!-- Hidden Full Article Content for Reader Modal -->
+              <div class="blog-full-content" style="display: none;">
+                <p>Melasma is one of the most stubborn pigmentary challenges in cosmetology. Unlike simple sun freckles which sit on the outermost epidermal layer, melasma often involves both epidermal and deep dermal melanophages accompanied by fragile microvasculature.</p>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">1. Key Triggers You Must Know</h3>
+                <ul style="list-style: disc; padding-left: 20px; margin-bottom: 16px;">
+                  <li><strong>Hormonal Shifts:</strong> Pregnancy (chloasma), oral contraceptives, and thyroid imbalances stimulate melanocyte-stimulating hormone receptors.</li>
+                  <li><strong>UV Radiation & Visible Light:</strong> Both ultraviolet A/B rays and high-energy visible blue light from digital displays stimulate pigment-producing cells.</li>
+                  <li><strong>Heat Exposure:</strong> Infrared radiation and cooking steam can trigger inflammatory pathways that aggravate melasma patches.</li>
+                </ul>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">2. Clinical Treatment: Peels & Q-Switched Lasers</h3>
+                <p>At Dr. Rui's Clinic, we avoid aggressive ablative treatments that can trigger rebound post-inflammatory pigmentation. Instead, we use gentle Q-Switched Nd:YAG laser toning in low-fluence sub-photothermal modes to fragment pigment granules, coupled with customized tranexamic and kojic acid chemical peels to prevent future melanin synthesis.</p>
+
+                <h3 style="color: #7B1E4D; margin: 20px 0 10px 0; font-size: 1.3rem;">3. The Non-Negotiable Sunscreen Protocol</h3>
+                <p>Standard sunscreens protect only against UV rays, but melasma requires protection against visible light too. Look for broad-spectrum sunscreens containing iron oxides, zinc oxide, and titanium dioxide. Reapply every 3 to 4 hours when exposed to sunlight.</p>
+              </div>
+            </div>
+          </article>
+
+        </main>
+
+        <!-- Sidebar Column -->
+        <aside>
+          <!-- Quick Skincare Rules Widget -->
+          <div class="sidebar-widget">
+            <h4>Doctor's Golden Skin Rules</h4>
+            <div class="tip-list">
+              <div class="tip-item">
+                <span style="color: var(--color-accent-green); font-weight: 700;">✓</span>
+                <span><strong>Never sleep with makeup:</strong> Trapped pigments clog pores and accelerate collagen breakdown overnight.</span>
+              </div>
+              <div class="tip-item">
+                <span style="color: var(--color-accent-green); font-weight: 700;">✓</span>
+                <span><strong>SPF every single day:</strong> Even on cloudy Pune afternoons or indoors near windows.</span>
+              </div>
+              <div class="tip-item">
+                <span style="color: var(--color-accent-green); font-weight: 700;">✓</span>
+                <span><strong>Patch test new serums:</strong> Test active acids on your jawline for 24 hours before full-face application.</span>
+              </div>
+              <div class="tip-item">
+                <span style="color: var(--color-accent-green); font-weight: 700;">✓</span>
+                <span><strong>Hydrate from within:</strong> Drink 2.5–3 liters of water daily to maintain skin turgor and cellular detox.</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Free Diagnostic Consultation Box -->
+          <div class="sidebar-widget" style="background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-primary-dark) 100%); color: #FFFFFF;">
+            <h4 style="color: #FFFFFF;">Need Expert Skin Advice?</h4>
+            <p style="color: var(--color-secondary); font-size: 0.9rem; margin-bottom: 20px;">
+              Don't guess what your skin needs. Get an accurate diagnosis from Dr. Rohini Murade Patil in Thergaon, Pune.
+            </p>
+            <button class="btn btn-white js-open-booking" data-service="Consultation" style="width: 100%;">
+              Book Consultation
+            </button>
+          </div>
+
+          <!-- Instagram Connect Widget -->
+          <div class="sidebar-widget">
+            <h4>Follow Dr. Rohini</h4>
+            <p style="font-size: 0.875rem; color: var(--color-text-secondary); margin-bottom: 14px;">
+              Watch practical dermatology tips, treatment demonstrations & myth-busting reels.
+            </p>
+            <a href="https://www.instagram.com/dr_rui369/" target="_blank" rel="noopener" class="btn btn-secondary btn-sm" style="width: 100%;">
+              Instagram @dr_rui369
+            </a>
+          </div>
+        </aside>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA Banner -->
+  <section class="final-cta-section">
+    <div class="container">
+      <div class="final-cta-box">
+        <div class="final-cta-text">
+          <h2>Ready to Transform Your Skin & Hair?</h2>
+          <p>Schedule your personalized examination with Dr. Rohini Murade Patil at our Thergaon clinic.</p>
+        </div>
+        <div class="final-cta-actions">
+          <button class="btn btn-white btn-lg js-open-booking" data-service="Consultation">
+            Book Appointment
+          </button>
+          <a href="https://wa.me/919834080515" target="_blank" rel="noopener" class="btn btn-whatsapp btn-lg">
+            WhatsApp Desk
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-col footer-brand">
+          <div class="footer-logo-row">
+            <img src="assets/images/logo.png" alt="Logo" class="footer-logo-img">
+            <div>
+              <h3 style="font-family: var(--font-heading); color: #FFF; font-size: 1.25rem;">Dr. Rui's</h3>
+              <p style="color: var(--color-accent-peach); font-size: 0.75rem; text-transform: uppercase; margin: 0; font-weight: 700;">Miracles of Happy Health</p>
+            </div>
+          </div>
+          <p>Thergaon and Wakad's trusted dermatology, hair, and laser clinic led by Dr. Rohini Murade Patil.</p>
+        </div>
+
+        <div class="footer-col">
+          <h4>Explore</h4>
+          <nav class="footer-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Dr. Rohini</a>
+            <a href="services.html">All Treatments</a>
+            <a href="gallery.html">Clinic Gallery</a>
+            <a href="reviews.html">Patient Reviews</a>
+            <a href="blog.html">Skin & Hair Tips</a>
+            <a href="contact.html">Contact & Directions</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Key Treatments</h4>
+          <nav class="footer-links">
+            <a href="services.html#acne-treatment">Acne Care</a>
+            <a href="services.html#prp-gfc">PRP Hair Therapy</a>
+            <a href="services.html#laser-hair-reduction">Laser Hair Reduction</a>
+            <a href="services.html#hydra-facial">Hydra Facial</a>
+            <a href="services.html#melasma-pigmentation">Melasma Care</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h4>Clinic Visit</h4>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+              <span>Shop A-112, 1st Floor, Khinvasara Trade Centre, Dange Chowk Road, Thergaon, Pune 411033</span>
+            </div>
+            <div class="footer-contact-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+              <a href="tel:+919834080515">+91 98340 80515</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-disclaimer">
+          <strong>Medical Disclaimer:</strong> Results may vary from person to person. Content on this website is for informational purposes only.
+        </p>
+        <div class="footer-credits">
+          <span>&copy; 2026 Dr. Rui's Skin, Hair & Laser Clinic. All rights reserved.</span>
+          <span>Website by <a href="#">Nexalogic Technologies</a></span>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating WhatsApp & Mobile Action Bar -->
+  <a href="https://wa.me/919834080515?text=Hello%20Dr.%20Rui%27s%20Clinic,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="floating-whatsapp" aria-label="Chat on WhatsApp">
+    <div class="whatsapp-pulse"></div>
+    <svg width="30" height="30" viewBox="0 0 24 24" fill="currentColor"><path d="M20.52 3.48A11.93 11.93 0 0012.04 0C5.46 0 .1 5.36.1 11.94c0 2.1.55 4.15 1.6 5.96L0 24l6.26-1.64c1.74.95 3.7 1.46 5.78 1.46 6.58 0 11.94-5.36 11.94-11.94 0-3.19-1.24-6.19-3.46-8.4zM12.04 21.8c-1.78 0-3.52-.48-5.05-1.39l-.36-.21-3.75.98 1-3.65-.24-.38a9.92 9.92 0 01-1.52-5.21c0-5.5 4.48-9.98 9.98-9.98 2.66 0 5.17 1.04 7.05 2.92 1.88 1.88 2.92 4.39 2.92 7.06 0 5.5-4.48 9.98-9.98 9.98zm5.47-7.48c-.3-.15-1.77-.87-2.04-.97-.27-.1-.47-.15-.67.15-.2.3-.77.97-.94 1.17-.17.2-.35.22-.65.07-.3-.15-1.27-.47-2.42-1.49-.9-.8-1.5-1.79-1.67-2.09-.17-.3-.02-.46.13-.61.14-.14.3-.35.45-.52.15-.17.2-.3.3-.5.1-.2.05-.37-.02-.52-.08-.15-.67-1.62-.92-2.22-.24-.58-.49-.5-.67-.51-.17-.01-.37-.01-.57-.01-.2 0-.52.07-.8.37-.27.3-1.05 1.03-1.05 2.51s1.07 2.91 1.22 3.11c.15.2 2.11 3.22 5.11 4.51.71.31 1.27.49 1.7.63.72.23 1.37.2 1.89.12.58-.09 1.77-.72 2.02-1.42.25-.7.25-1.3.17-1.42-.07-.12-.27-.2-.57-.35z"/></svg>
+  </a>
+
+  <div class="mobile-bottom-bar">
+    <div class="mobile-bottom-inner">
+      <a href="tel:+919834080515" class="mobile-action-btn mobile-action-call">Call Clinic</a>
+      <a href="https://wa.me/919834080515?text=Hello%20Dr.%20Rui%27s%20Clinic,%20I%20would%20like%20to%20book%20an%20appointment." target="_blank" rel="noopener" class="mobile-action-btn mobile-action-wa">WhatsApp</a>
+    </div>
+  </div>
+
+  <!-- Booking Modal -->
+  <div class="modal-overlay" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close-btn">&times;</button>
+      <div class="modal-header">
+        <span class="section-tag">Quick Appointment</span>
+        <h3>Book Your Consultation</h3>
+        <p>Confirm your slot with Dr. Rohini Murade Patil.</p>
+      </div>
+      <form id="modalBookingForm" class="booking-form">
+        <div class="form-group">
+          <label for="modalName" class="form-label">Full Name *</label>
+          <input type="text" id="modalName" class="form-control" placeholder="Your Name" required>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="modalPhone" class="form-label">Phone Number *</label>
+            <input type="tel" id="modalPhone" class="form-control" placeholder="+91 98340..." required>
+          </div>
+          <div class="form-group">
+            <label for="modalEmail" class="form-label">Email</label>
+            <input type="email" id="modalEmail" class="form-control" placeholder="name@domain.com">
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="modalServiceSelect" class="form-label">Consultation / Concern *</label>
+          <select id="modalServiceSelect" class="form-control" required>
+            <option value="Consultation">General Consultation with Dr. Rohini</option>
+            <option value="Hair Fall & Dandruff Treatment">Hair Fall & Dandruff Treatment</option>
+            <option value="Acne & Acne Scar Treatment">Acne & Acne Scar Treatment</option>
+            <option value="Melasma & Pigmentation">Melasma & Pigmentation</option>
+          </select>
+        </div>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="modalDate" class="form-label">Preferred Date</label>
+            <input type="date" id="modalDate" class="form-control">
+          </div>
+          <div class="form-group">
+            <label for="modalTime" class="form-label">Time Slot</label>
+            <select id="modalTime" class="form-control">
+              <option value="Morning">Morning (10 AM - 1 PM)</option>
+              <option value="Afternoon">Afternoon (1 PM - 4 PM)</option>
+              <option value="Evening">Evening (4 PM - 8 PM)</option>
+            </select>
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="modalMessage" class="form-label">Notes</label>
+          <textarea id="modalMessage" class="form-control" placeholder="Briefly describe your concern..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-lg" style="width: 100%;">Confirm & Send on WhatsApp</button>
+      </form>
+    </div>
+  </div>
+
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
+
